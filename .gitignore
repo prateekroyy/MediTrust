@@ -1,0 +1,79 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# =====================
+# Dependency / build
+# =====================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =====================
+# Logs & temp files
+# =====================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =====================
+# OS-specific
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.iml
+
+# =====================
+# Jupyter / Experiments
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Secrets (IMPORTANT)
+# =====================
+.env
+*.env
+secrets.json
+config.yaml
+config.yml
+
+# =====================
+# Test / coverage
+# =====================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =====================
+# Model / data artifacts (if ML/RAG)
+# =====================
+data/
+datasets/
+vectorstore/
+embeddings/
+*.pkl
+*.joblib
+*.bin
+
+# =====================
+# Local config overrides
+# =====================
+local_settings.py

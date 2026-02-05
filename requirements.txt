@@ -1,0 +1,27 @@
+# Backend / API
+fastapi
+uvicorn
+
+# Frontend (Demo UI)
+streamlit
+
+# Environment
+python-dotenv
+numpy
+
+# Security
+cryptography
+
+# Blockchain (only if testing consent now)
+web3
+py-solc-x
+
+# GenAI & RAG
+langchain
+langchain-community
+langchain-groq
+sentence-transformers
+faiss-cpu
+
+# PDF processing
+pypdf
